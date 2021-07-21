@@ -9,6 +9,8 @@ license = "MIT"
 python = "^3.9"
 python-pptx = "^0.6.19"
 requests = "^2.26.0"
+prompt-toolkit = "^3.0.19"
+python-dotenv = "^0.18.0"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^3.9.2"
