@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pywod"
+version = "0.1.0"
+description = "Create a PPT for the given word"
+authors = ["Vivaan Parashar <parashar.xtra@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+python-pptx = "^0.6.19"
+click = "^8.0.1"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.9.2"
+autopep8 = "^1.5.7"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+start = "pywod.__main__:main"
